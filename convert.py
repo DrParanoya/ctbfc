@@ -14,7 +14,7 @@ file.write("""
 #define i scanf("%c",c[t]);
 #define s while(c[t]!=0){
 #define e }
-char c[30000]={};uint16_t t=0;main(){ 
+char c[30000]={};uint16_t t=0;int main(){ 
 """)
 for c in content:
     match c:
